@@ -1,4 +1,4 @@
-# AIOps Log Anomaly Detector 
+# Log Anomaly Detector 
 
 Basic project which automatically detect anomalous behavior in server logs, eliminating the need for hardcoded monitoring thresholds.
 

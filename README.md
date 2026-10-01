@@ -24,21 +24,22 @@ The `detector.py` script uses an **Isolation Forest**.
 
 ### Option 1: Running Locally
 1. Clone the repository:
-   ```bash
+   ```
    git clone https://github.com/Varun789/Log-Detector.git
    cd Log-Detector
-   
-   
    ```
+   
    Create virtual environment and activate it and then execute
 
-   ```
+```
 pip install -r requirements.txt
 python gen_logs.py
 python detector.py
-   ```
-
+```
+### Option 2: Running container
 2. Run container
+
+
 ```
 docker build -t log-detector .
 docker run --rm log-detector

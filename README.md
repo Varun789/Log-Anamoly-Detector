@@ -2,7 +2,7 @@
 
 Basic project which automatically detect anomalous behavior in server logs, eliminating the need for hardcoded monitoring thresholds.
 
-## 📖 Overview
+## Overview
  
 
 This project demonstrates how to apply an **Isolation Forest** (an unsupervised machine learning algorithm) to operational data to automatically flag unusual spikes in latency and error rates.
@@ -20,7 +20,7 @@ The `detector.py` script uses an **Isolation Forest**.
 3. Because anomalies (like a 4000ms response time on a usually 100ms endpoint) are sparse and different, they get isolated faster (closer to the root of the tree).
 4. Data points with short average path lengths are flagged as `-1` (Anomaly).
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Option 1: Running Locally
 1. Clone the repository:
